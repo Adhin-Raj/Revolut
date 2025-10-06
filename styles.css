@@ -913,10 +913,12 @@ body {
 }
 
 .social-media-icon {
-  filter: invert(48%) sepia(7%) saturate(330%) hue-rotate(171deg)
-    brightness(92%) contrast(87%);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+  background-color: #8d969e;
   height: 16px;
   width: 16px;
+  
 }
 
 .web-info-section {
@@ -1565,9 +1567,7 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  /* .hero-section .hero-content-container .hero-title {
-    font-size: 89.216px;
-  } */
+
 
   .hero-card-mobile {
     top: 158px;
