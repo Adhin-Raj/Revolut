@@ -128,7 +128,7 @@
         </p>
         <button class="hero-button">Download the app</button>
 
-        <div class="hero-card-mobile display-none-md"> <!-- display none is given avoid that -->
+        <div class="hero-card-mobile display-none-lg">
           <picture>
             <source
               srcset="
@@ -148,10 +148,9 @@
         </div>
       </section>
 
-       <div class="carousel-container">
-        
-
+      <div class="carousel-container">
         <div class="hero-card-lg">
+          <div class="hero-card-overlay"></div>
           <div class="carousel-img-container hero-card-lg-container">
             <img
               class="hero-bg-image viewport-size"
@@ -159,7 +158,7 @@
               alt="sky-image"
             />
             <img
-              class=" bg-image-women"
+              class="bg-image-women"
               src="https://assets.revolut.com/published-assets-v3/988d267e-b628-453c-bdfe-0c5beeb1d233/58acb31c-cd5d-41bc-a8df-4b49f4f09e58.png"
               alt="hero-image"
             />
@@ -170,9 +169,7 @@
             />
           </div>
         </div>
-        
-
-
+      </div>
     </main>
 
     <section class="carousel-card-section">
@@ -311,7 +308,7 @@
             >Earn points on your purchases with one of our debit cards. Then
             redeem them for Airline Miles and more. RevPoints T&Cs apply.</span
           >
-          <span class="content-terms"
+          <span class="content-terms margin-top-8"
             >Some cards available on paid plans only. Fees may apply.</span
           >
           <button class="content-button">Start earning</button>
@@ -353,7 +350,7 @@
             >Grow your money with up to 4.5% AER/Gross (variable) interest rate
             on Savings, paid every day.</span
           >
-          <span class="content-terms"
+          <span class="content-terms margin-top-8"
             >AER stands for Annual Equivalent Rate and illustrates what the
             interest rate would be if interest was paid and compounded once each
             year. Gross is the interest rate without tax deducted. The interest
@@ -381,20 +378,27 @@
 
     <!-- your-money-safe space -->
 
-    <section class="center-container bg-white">
-      <div class="video-overlay-container">
-        <div class="content-section text-black">
+    <section class="center-container bg-white height-90vh">
+      <div class="video-overlay-container money-safe-lg">
+        <div class="content-section text-black content-section-lg margin-bottom-0">
           <h2 class="content-heading">Your money’s safe space</h2>
-          <span class="content-description margin-block-18"
+          <span class="content-description margin-block-18 width-full"
             >With Revolut Secure, you’re entering a new era of money security —
             where our proactive, purpose-built defences and team of fraud
             specialists help protect every account, 24/7.</span
           >
-          <button class="hero-button margin-top-20">Learn more</button>
+          <button class="hero-button margin-top-20 margin-top-32">
+            Learn more
+          </button>
         </div>
 
-        <div class="middle-content-video">
-          <video class="middle-video object-contain" autoplay loop muted>
+        <div class="middle-content-video max-height-600">
+          <video
+            class="middle-video object-contain middle-video-lg"
+            autoplay
+            loop
+            muted
+          >
             <source
               src="https://assets.revolut.com/published-assets-v3/7bf7c951-27c0-4ceb-9021-881e85ca6b25/332f5fdd-c0b9-44be-8dea-fc17b3d6ccdf.mp4"
               type="video/mp4"
@@ -449,7 +453,7 @@
 
     <section class="app-download-section">
       <h2 class="download-text">Join the 60+ million using Revolut</h2>
-      <button class="hero-button">Download the app</button>
+      <button class="hero-button margin-top-8">Download the app</button>
     </section>
 
     <!-- policy-section  -->
@@ -476,11 +480,9 @@
         <a class="policy-link" href="#">Read more on these fees</a>. Further
         information about the investment service provided by Revolut Trading Ltd
         can be found in the
-        <a class="policy-link" href="#">Terms of Business</a>, <a
-          href="#"
-          class="policy-link"
-          >Risk Disclosure</a
-        >, and <a href="#" class="policy-link">Invest FAQs</a>.
+        <a class="policy-link" href="#">Terms of Business</a>,
+        <a href="#" class="policy-link">Risk Disclosure</a>, and
+        <a href="#" class="policy-link">Invest FAQs</a>.
       </p>
       <p class="policy-text">
         Revolut Trading Ltd (No. 11567840) is a firm authorised and regulated by
@@ -600,6 +602,41 @@
 
       <!-- footer-nav  -->
       <section class="footer-nav">
+
+        <div class="footer-list-container display-in-lg">
+          <div class="footer-nav-list ">
+            <h2 class="footer-nav-heading">Help</h2>
+            <a href="#" class="footer-nav-link">Contact Us</a>
+            <a href="#" class="footer-nav-link">Help Centre</a>
+            <a href="#" class="footer-nav-link">System Status</a>
+            <a href="#" class="footer-nav-link">Developers API</a>
+            <a href="#" class="footer-nav-link">Site Map</a>
+          </div>
+           <div class="footer-nav-list">
+            <h2 class="footer-nav-heading">Crypto</h2>
+            <a href="#" class="footer-nav-link">Crypto</a>
+            <a href="#" class="footer-nav-link">Revolut Ramp</a>
+            <a href="#" class="footer-nav-link">Revolut X</a>
+          </div>
+        </div>
+
+         <div class="footer-list-container display-in-lg">
+           <div class="footer-nav-list">
+            <h2 class="footer-nav-heading">Security & Protection</h2>
+            <a href="#" class="footer-nav-link">How We Protect Your Money</a>
+            <a href="#" class="footer-nav-link">Report Lost Device</a>
+            <a href="#" class="footer-nav-link">Learn About Fraud & Scams</a>
+            <a href="#" class="footer-nav-link">Security Bugs</a>
+            <a href="#" class="footer-nav-link">Consumer Security Insight Report</a>
+          </div>
+           <div class="footer-nav-list">
+            <h2 class="footer-nav-heading">Investments</h2>
+            <a href="#" class="footer-nav-link">Stocks</a>
+            <a href="#" class="footer-nav-link">Stocks & Shares ISA</a>
+            <a href="#" class="footer-nav-link">Commodities</a>
+          </div>
+        </div>
+
         <div class="footer-list-container">
           <button class="footer-nav-menu display-none-md">
             Plans
@@ -622,13 +659,13 @@
             <a href="#" class="footer-nav-link">Ultra</a>
             <a href="#" class="footer-nav-link">Compare Plans</a>
           </div>
-          <div class="footer-nav-list display-none-mobile">
+          <div class="footer-nav-list display-none-mobile display-none-lg">
             <h2 class="footer-nav-heading">Investments</h2>
             <a href="#" class="footer-nav-link">Stocks</a>
             <a href="#" class="footer-nav-link">Stocks & Shares ISA</a>
             <a href="#" class="footer-nav-link">Commodities</a>
           </div>
-          <div class="footer-nav-list display-none-mobile">
+          <div class="footer-nav-list display-none-mobile display-none-lg">
             <h2 class="footer-nav-heading">Company</h2>
             <a href="#" class="footer-nav-link">Sustainability</a>
             <a href="#" class="footer-nav-link">Code of Conduct</a>
@@ -652,7 +689,7 @@
             <a href="#" class="footer-nav-link">Insurance</a>
             <a href="#" class="footer-nav-link">Donations</a>
           </div>
-          <div class="footer-nav-list display-none-mobile">
+          <div class="footer-nav-list display-none-mobile display-none-lg">
             <h2 class="footer-nav-heading">Help</h2>
             <a href="#" class="footer-nav-link">Contact Us</a>
             <a href="#" class="footer-nav-link">Help Centre</a>
@@ -681,15 +718,19 @@
             <a href="#" class="footer-nav-link">For ages 16-17</a>
             <a href="#" class="footer-nav-link">Parents and guardians</a>
           </div>
-          <div class="footer-nav-list display-none-mobile">
+          <div class="footer-nav-list display-none-mobile display-none-lg">
             <h2 class="footer-nav-heading">Security & Protection</h2>
             <a href="#" class="footer-nav-link">How We Protect Your Money</a>
             <a href="#" class="footer-nav-link">Report Lost Device</a>
             <a href="#" class="footer-nav-link">Learn About Fraud & Scams</a>
             <a href="#" class="footer-nav-link">Security Bugs</a>
-            <a href="#" class="footer-nav-link"
-              >Consumer Security Insight Report</a
-            >
+            <a href="#" class="footer-nav-link">Consumer Security Insight Report</a>
+          </div>
+
+          <div class="footer-nav-list display-in-lg">
+            <h2 class="footer-nav-heading">Company</h2>
+            <a href="#" class="footer-nav-link">Sustainability</a>
+            <a href="#" class="footer-nav-link">Code of Conduct</a>
           </div>
         </div>
         <div class="footer-list-container">
@@ -712,7 +753,7 @@
             <a href="#" class="footer-nav-link">Linked Accounts</a>
             <a href="#" class="footer-nav-link">Shops</a>
           </div>
-          <div class="footer-nav-list display-none-mobile">
+          <div class="footer-nav-list display-none-mobile display-none-lg">
             <h2 class="footer-nav-heading">Crypto</h2>
             <a href="#" class="footer-nav-link">Crypto</a>
             <a href="#" class="footer-nav-link">Revolut Ramp</a>
