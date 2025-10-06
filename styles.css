@@ -1759,6 +1759,7 @@ body {
 
   .download-text {
     font-size: 80px;
+    letter-spacing: -0.8px;
   }
 
   .app-download-section {
@@ -1811,7 +1812,6 @@ body {
 
   .center-container-desk {
     grid-template-columns: 696px 600px;
-    /* max-width: 1432px; */
     padding-block: 80px;
   }
 
@@ -1875,5 +1875,9 @@ body {
   .house-bill-container {
     width: 288.79px;
     height: 407.52px;
+  }
+
+  .video-overlay-container {
+    padding-block: 80px;
   }
 }
