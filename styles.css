@@ -234,7 +234,7 @@ body {
 }
 
 .hero-section .hero-content-container .hero-title {
-  font-size: 36px;
+  font-size: clamp(2.25rem, 1.65rem + 2.46vw,3rem);
   line-height: 1;
   font-weight: 500;
   margin: 0;
@@ -313,7 +313,7 @@ body {
 }
 
 .card-heading {
-  font-size: clamp(32px, 28.8px + 3.075px, 36px);
+  font-size: clamp(2rem, 1.8rem + 0.82vw, 2.25rem);
   font-weight: 500;
   line-height: 1;
   text-align: start;
@@ -1035,7 +1035,7 @@ body {
   }
 
   .hero-section .hero-content-container .hero-title {
-    font-size: 80px;
+    font-size: clamp(5rem, 4.1rem + 1.64vw, 6.5rem);
     letter-spacing: -2.08px;
   }
 
@@ -1331,7 +1331,7 @@ body {
   }
 
   .hero-section .hero-content-container .hero-title {
-    font-size: clamp(80px, 65.6px + 16.7936px, 104px);
+    font-size: clamp(5rem,4.1rem + 1.64vw, 6.5rem);
   }
 
   .hero-section .hero-description {
@@ -1423,7 +1423,7 @@ body {
 
   .content-heading {
     margin-bottom: 24px;
-    font-size: clamp(48px, 40.8px + 8.3968px, 60px);
+    font-size: clamp(3rem,2.55rem + 0.82vw, 3.75rem);
   }
 
   .content-description,
@@ -1565,9 +1565,9 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  .hero-section .hero-content-container .hero-title {
+  /* .hero-section .hero-content-container .hero-title {
     font-size: 89.216px;
-  }
+  } */
 
   .hero-card-mobile {
     top: 158px;
@@ -1758,7 +1758,7 @@ body {
   }
 
   .download-text {
-    font-size: 80px;
+    font-size:  clamp(5rem, 4.1rem + 1.64vw, 6.5rem);;
     letter-spacing: -0.8px;
   }
 
@@ -1774,7 +1774,7 @@ body {
 
   .content-heading,
   .card-heading {
-    font-size: 80px;
+    font-size: clamp(5rem, 4.1rem + 1.64vw, 6.5rem);
     margin-bottom: 32px;
   }
 
