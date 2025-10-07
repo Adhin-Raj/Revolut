@@ -1461,7 +1461,7 @@ body {
 
   .width-full {
     width: 100%;
-    margin-block: 18px !important;
+    margin-block: 18px ;
   }
 
   .max-height-600 {
@@ -1747,6 +1747,7 @@ body {
 
   .download-text {
     letter-spacing: -0.8px;
+    font-size: 80px;
   }
 
   .app-download-section {
@@ -1768,6 +1769,7 @@ body {
   .content-description {
     font-size: 24px;
     line-height: 32px;
+    margin-block: 24px;
     width: auto;
   }
 
@@ -1775,6 +1777,7 @@ body {
     padding: 14px 32px;
     border-radius: 9999px;
     max-width: 1024px;
+    margin-top: 40px;
     font-size: 20px;
     line-height: 28px;
   }
@@ -1866,5 +1869,13 @@ body {
 
   .video-overlay-container {
     padding-block: 80px;
+  }
+
+  .margin-block-0{
+    margin-block: 0;
+  }
+
+  .margin-top-40{
+    margin-top: 40px;
   }
 }
